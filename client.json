@@ -4,5 +4,6 @@
   "redirect_uris": ["https://console.deck.co/cb-l25"],
   "grant_types": ["authorization_code"],
   "response_types": ["code"],
-  "token_endpoint_auth_method": "none"
+  "token_endpoint_auth_method": "none",
+  "scope": "openid profile email offline_access user:org:read deck:read deck:write"
 }
